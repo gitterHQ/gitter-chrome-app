@@ -21,7 +21,7 @@ chrome.app.runtime.onLaunched.addListener(function() {
     },
     function(win) {
       win.contentWindow.onload = function() {
-        var webview = win.contentWindow.document.querySelector('#wv1');
+        var webview = win.contentWindow.document.querySelector('#gitter-webview');
         webview.addEventListener('newwindow', function(e) {
           e.preventDefault();
           window.open(e.targetUrl);
