@@ -1,0 +1,23 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "launch.js" ]
+      }
+   },
+   "description": "Chat for GitHub.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png"
+   },
+   "manifest_version": 2,
+   "name": "Gitter",
+   "short_name": "Gitter",
+   "offline_enabled": false,
+   "permissions": [
+    "unlimitedStorage",
+    "notifications",
+    "webview",
+    "http://*/*"
+  ],
+   "version": "1.0.0.3"
+}
